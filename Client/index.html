@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js" integrity="sha512-sW/w8s4RWTdFFSduOTGtk4isV1+190E/GghVffMA9XczdJ2MDzSzLEubKAs5h0wzgSJOQTRYyaz73L3d6RtJSg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./script.js" defer></script>
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./style.css">
+  <title>Chart</title>
+</head>
+<body>
+  <div class="container">
+    <form method="GET" action="/" class="form query-type-btn-area">
+      <label for="query-type" class="query-type-label">Chọn loại truy vấn</label>
+      <select name="cars" id="query-type" class="query-type">
+        <option value="insert">Insert</option>
+        <option value="select">Select</option>
+        <option value="update">Update</option>
+        <option value="delete">Delete</option>
+      </select>
+      <button class="submit-btn" type="submit">Gửi</button>
+    </form>
+    <div class="chart-label-area">
+      <p class="chart-label">Biểu đồ truy vấn</p>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+const BIG_RECORDS = [10000, 100000, 200000, 500000, 1000000];
+
+const SMALL_RECORDS = [10, 20, 30, 40, 50];
+
+module.exports = {
+  BIG_RECORDS,
+  SMALL_RECORDS
+};

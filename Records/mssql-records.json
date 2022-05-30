@@ -1,0 +1,130 @@
+[
+  {
+    "RECORDS:10000": {
+      "insert": 1264,
+      "select": 3,
+      "update": 34,
+      "delete": 20
+    },
+    "RECORDS:100000": {
+      "insert": 12363,
+      "select": 43,
+      "update": 234,
+      "delete": 216
+    },
+    "RECORDS:200000": {
+      "insert": 27597,
+      "select": 100,
+      "update": 464,
+      "delete": 400
+    },
+    "RECORDS:500000": {
+      "insert": 72300,
+      "select": 2143,
+      "update": 1490,
+      "delete": 927
+    },
+    "RECORDS:1000000": {
+      "insert": 131790,
+      "select": 2847,
+      "update": 1680,
+      "delete": 1597
+    }
+  },
+  {
+    "RECORDS:10000": {
+      "insert": 1673,
+      "select": 3,
+      "update": 40,
+      "delete": 23
+    },
+    "RECORDS:100000": {
+      "insert": 11166,
+      "select": 170,
+      "update": 176,
+      "delete": 126
+    },
+    "RECORDS:200000": {
+      "insert": 25254,
+      "select": 513,
+      "update": 716,
+      "delete": 490
+    },
+    "RECORDS:500000": {
+      "insert": 63414,
+      "select": 777,
+      "update": 1200,
+      "delete": 890
+    },
+    "RECORDS:1000000": {
+      "insert": 122850,
+      "select": 2206,
+      "update": 2453,
+      "delete": 1864
+    }
+  },
+  {
+    "RECORDS:10000": {
+      "insert": 1090,
+      "select": 4,
+      "update": 26,
+      "delete": 36
+    },
+    "RECORDS:100000": {
+      "insert": 11194,
+      "select": 60,
+      "update": 284,
+      "delete": 260
+    },
+    "RECORDS:200000": {
+      "insert": 29663,
+      "select": 134,
+      "update": 436,
+      "delete": 370
+    },
+    "RECORDS:500000": {
+      "insert": 58483,
+      "select": 924,
+      "update": 1160,
+      "delete": 857
+    },
+    "RECORDS:1000000": {
+      "insert": 119150,
+      "select": 2137,
+      "update": 2190,
+      "delete": 1703
+    }
+  },
+  {
+    "RECORDS:10000": {
+      "insert": 1333,
+      "select": 7,
+      "update": 33,
+      "delete": 33
+    },
+    "RECORDS:100000": {
+      "insert": 14684,
+      "select": 47,
+      "update": 240,
+      "delete": 196
+    },
+    "RECORDS:200000": {
+      "insert": 23300,
+      "select": 120,
+      "update": 487,
+      "delete": 304
+    },
+    "RECORDS:500000": {
+      "insert": 58300,
+      "select": 820,
+      "update": 1110,
+      "delete": 810
+    },
+    "RECORDS:1000000": {
+      "insert": 145820,
+      "select": 4454,
+      "update": 2117,
+      "delete": 2174
+    }
+  }
+]

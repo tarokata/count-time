@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "ioredis": "^5.0.5",
+    "JSONStream": "^1.3.5",
+    "mssql": "^8.1.1",
+    "node-static": "^0.7.11",
+    "redis": "^4.1.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "scripts": {
+    "start-redis": "nodemon ./Modules/redis-server.js",
+    "start-mssql": "nodemon ./Modules/sql-server.js",
+    "start": "nodemon server.js"
+  },
+  "name": "count-time",
+  "version": "1.0.0",
+  "main": "server.js",
+  "keywords": [],
+  "author": "Hung Thinh",
+  "license": "ISC",
+  "description": "count-execution-time project"
+}
